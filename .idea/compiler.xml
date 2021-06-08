@@ -11,8 +11,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="algorithm" target="1.5" />
+      <module name="algorithm" target="1.7" />
       <module name="datastruct" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="datastruct" options="" />
+    </option>
   </component>
 </project>
